@@ -6,8 +6,8 @@
 #define LED_PIN D10
 #define NUMPIXELS 4
 
-const char* ssid = "Home";
-const char* password = "Welcome2";
+const char* ssid = "Network Name";
+const char* password = "Network Password";
 
 WebServer server(80);
 Adafruit_NeoPixel pixels(NUMPIXELS, LED_PIN, NEO_GRB + NEO_KHZ800);
